@@ -1,3 +1,10 @@
+// =====================================================
+// Universal Nixie/VFD Clock — v0.3
+// RTC VARIANT: M41T81(S) (I2C address 0x68)
+// Use DigClock_v0.3_8583.ino instead if your board has a
+// PCF8583 RTC chip (I2C address 0x50).
+// =====================================================
+
 #include <Wire.h>
 #include "Arduino.h"
 #include <OneWire.h>
